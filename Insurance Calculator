@@ -1,0 +1,11 @@
+Company_name = "Ngacha_Insurance"
+number_of_customers = 50
+premium_per_customers = 20000
+Total_claim_paid = 600000
+
+Total_premium_collected = number_of_customers * premium_per_customers
+Profit = Total_premium_collected - Total_claim_paid
+
+print(Company_name)
+print(Total_premium_collected)
+print(Profit)
